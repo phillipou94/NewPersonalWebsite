@@ -37,6 +37,15 @@ nav .left-nav {
 	float:left;
 	height:75px;
 	width:75px;
+	background: url("../images/POLogo.jpg") center;
+	background-size: 100%;
+	transition: all 200ms linear;
+    transition-delay: 400ms;
+}
+
+#profile-logo:hover {
+	background: url("../images/phillipouID.jpg") center;
+	background-size: 100%;
 }
 
 #name {
