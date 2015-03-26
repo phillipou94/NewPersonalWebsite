@@ -124,7 +124,7 @@ HEADER
 	margin-bottom:10px;
 }
 
-#learn-more-button {
+#learn-more-button{
 	height:60px; 
     width:155px; 
     background-color: transparent;
@@ -141,7 +141,13 @@ HEADER
     left:50%;
 }
 
-#learn-more-button:hover /*, #learn-more-button:focus, #learn-more-button:active*/{
+#learn-more-button a, #learn-more-button a:visited{
+	text-decoration: none;
+	color:inherit;
+	background: transparent;
+}
+
+#learn-more-button:hover {
   display: inline-block;
   font-weight: 400;
   -webkit-transition-duration: 0.1s;
@@ -150,6 +156,9 @@ HEADER
   color:white;
 
   
+}
+#learn-more-button a:hover{
+	background: transparent;
 }
 
 
