@@ -1,0 +1,155 @@
+/*********************************
+GLOBAL
+*********************************/
+
+/* orange: #ff3d2b;*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,400,700);
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*********************************
+NAVIGATION BAR
+*********************************/
+nav {
+   position: fixed;
+   top: 0px;
+   float:top;
+   max-width: 100%;
+   width:100%;
+   height:75px;
+   background: white;
+}
+
+nav .left-nav {
+	list-style: none;
+	float:left;
+	display:block;
+	height:100%;
+}
+
+
+#profile-logo {
+	float:left;
+	height:75px;
+	width:75px;
+}
+
+#name {
+	float:right;
+	padding-left:20px;
+	padding-top:5px;
+	font-family: 'Lato';
+	font-weight: 700;
+	letter-spacing: 5px;
+	font-size:20px;
+}
+nav .right-nav {
+  float:right;
+  list-style: none;
+  margin: 25px 10px;
+  padding-bottom:20px;
+  display:block;
+}
+
+nav .right-nav li {
+  display: inline-block; /* allows list items to be in blocks in a row */
+}
+
+nav .right-nav li a:hover {
+	font-weight:500;
+	color:#ff3d2b;
+}
+nav .right-nav a, nav .right-nav a:visited {
+	color:black;
+	padding: 15px 10px;
+	text-align: right;
+	text-decoration: none;
+	font-family: 'Lato';
+	font-weight:500;
+  
+}
+
+/*********************************
+HEADER
+*********************************/
+
+.main-header {
+	background: linear-gradient( rgba(0, 0, 0, 0.65) 60%, rgba(0, 0, 0, 0.15)),
+				url('../images/boston_skyline.jpg') no-repeat;
+	-moz-background-size:100% 650px;
+	-webkit-background-size:100% 650px;
+	background-size:100% 650px;
+    max-width: 100%;
+    width:100%;
+  	height: 650px;
+  	position:absolute;
+  	margin: 0 auto;
+    
+}
+
+.header-content {
+	width: 85%;
+	max-width:85%;
+	margin: 300px auto;
+	padding-top:60px;
+    
+}
+
+.header-content h1,h2 {
+	margin:auto;
+    line-height:51px;
+    text-align:center;
+    color:white;
+
+}
+
+.header-content h1 {
+	font-family: 'Lato';
+	font-weight:700;
+	font-size:85px;
+	letter-spacing: 5px;
+	margin-bottom: 25px;
+}
+
+.header-content h2 {
+	font-family: 'Lato';
+	font-weight:300;
+	font-size:35px;
+	letter-spacing: 2px;
+	margin-bottom:10px;
+}
+
+#learn-more-button {
+	height:60px; 
+    width:155px; 
+    background-color: transparent;
+    color:#ff3d2b;
+    font-family:'Lato';
+    font-weight:300;
+    font-size:20px;
+    border-width:2px;
+    border-color:#ff3d2b;
+    border-style:solid;
+    margin: 35px -85px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+
+#learn-more-button:hover /*, #learn-more-button:focus, #learn-more-button:active*/{
+  display: inline-block;
+  font-weight: 400;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.2s;
+  background: #ff3d2b;
+  color:white;
+
+  
+}
+
+
