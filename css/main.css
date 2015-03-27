@@ -6,6 +6,12 @@ GLOBAL
 
 @import url(http://fonts.googleapis.com/css?family=Lato:100,400,700);
 
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+  	-webkit-box-sizing: border-box;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -18,13 +24,17 @@ html, body {
 NAVIGATION BAR
 *********************************/
 nav {
-   position: fixed;
+   position: absolute;
    top: 0px;
    float:top;
    max-width: 100%;
    width:100%;
    height:75px;
    background: white;
+
+   border-width:0 0 1px 0 ;
+   border-color:gray;
+   border-style:solid;
 }
 
 nav .left-nav {
@@ -137,13 +147,13 @@ HEADER
 	margin-bottom:10px;
 }
 
-#learn-more-button{
+.header-content button{
 	height:60px; 
     width:155px; 
     background-color: transparent;
     color:#ff3d2b;
     font-family:'Lato';
-    font-weight:300;
+    font-weight:400;
     font-size:20px;
     border-width:2px;
     border-color:#ff3d2b;
@@ -154,13 +164,13 @@ HEADER
     left:50%;
 }
 
-#learn-more-button a, #learn-more-button a:visited{
+.header-content button a, .header-content button a:visited{
 	text-decoration: none;
 	color:inherit;
 	background: transparent;
 }
 
-#learn-more-button:hover {
+.header-content button:hover {
   display: inline-block;
   font-weight: 400;
   -webkit-transition-duration: 0.1s;
@@ -178,28 +188,48 @@ HEADER
 SKILLS AND EDUATION 
 *********************************/
 
-.skills-and-education {
+.section-header {
 	width:100%;
 	max-width:100%;
 	background: white;
-	height:2000px;
-	
+
 }
 
-.table .left {
-	float:left;
-	padding-left: 120px; 
-	max-width: 50%;
-	height:400px;
-	background: blue;
+.section-header h1 {
+	padding-top: 60px;
+	padding-bottom:30px;
+	max-width:100%;
+	font-family: 'Lato';
+	font-weight:700;
+	position:relative;
+	color:black;
+	text-align:center;
+}
+.section-header span {
+	font-weight:bold;
+	color:#ff3d2b;
 }
 
-.table .left h3 {
+.skills-and-education .left {
+	display: inline-block;
+	padding-left:50px;
+	width: 48%;
+	height:200px;
+}
+
+.skills-and-education .right {
+	display: inline-block;
+	padding-left:50px;
+	width:48%;
+	height:200px;
+}
+
+.skills-and-education .right h3 {
 	color:black;
 	margin:left;
 }
 
-#university {
+.section-title {
 	font-weight:bold;
 	font-size:20px;
 	line-height: 5px;
@@ -209,17 +239,22 @@ SKILLS AND EDUATION
 	font-size:15px;
 	color:gray;
 }
-.skills-and-education h1 {
-	padding-top: 50px;
-	max-width:100%;
-	font-family: 'Lato';
-	font-weight:700;
-	position:relative;
-	color:black;
-	text-align:center;
 
+/*********************************
+Portfolio 
+*********************************/
+
+.portfolio {
+
+	height:500px;
+	background: gray;
+
+	border-width:1px 0 0 0 ;
+    border-color:gray;
+    border-style:solid;
+    margin-bottom:300px;
 }
-.skills-and-education span {
-	color:#ff3d2b;
-}
+
+
+
 
