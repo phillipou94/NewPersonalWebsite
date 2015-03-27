@@ -10,6 +10,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Lato';
+    background: white;
 }
 
 
@@ -177,22 +178,36 @@ HEADER
 SKILLS AND EDUATION 
 *********************************/
 
-.skills-and-education:last-child {
-  margin-bottom: 0;
-}
 .skills-and-education {
-	clear:both;
 	width:100%;
+	max-width:100%;
 	background: white;
 	height:2000px;
-
 	
 }
 
-.experience {
-	-webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
+.table .left {
+	float:left;
+	padding-left: 120px; 
+	max-width: 50%;
+	height:400px;
+	background: blue;
+}
+
+.table .left h3 {
+	color:black;
+	margin:left;
+}
+
+#university {
+	font-weight:bold;
+	font-size:20px;
+	line-height: 5px;
+}
+#major {
+	font-weight:500;
+	font-size:15px;
+	color:gray;
 }
 .skills-and-education h1 {
 	padding-top: 50px;
