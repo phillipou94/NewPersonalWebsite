@@ -212,16 +212,18 @@ SKILLS AND EDUATION
 
 .skills-and-education .left {
 	display: inline-block;
-	padding-left:50px;
+	padding-left:10%;
 	width: 48%;
 	height:200px;
+	max-height:300px;
 }
 
 .skills-and-education .right {
 	display: inline-block;
-	padding-left:50px;
+	padding-left:10%;
 	width:48%;
 	height:200px;
+	max-height:300px;
 }
 
 .skills-and-education .right h3 {
@@ -247,11 +249,51 @@ Portfolio
 .portfolio {
 
 	height:500px;
-	background: rgba(240,240,240,1);
+	background: white; /*rgba(240,240,240,1)*/
 	border-width:1px 0 0 0 ;
-    border-color:gray;
+    border-color:rgba(245,245,245,1);
     border-style:solid;
     margin-bottom:300px;
+    display:inline-block;
+}
+
+
+
+.project {
+	height:200px;
+	margin-left:150px;
+	margin-right:150px;
+    display: inline-block;
+
+}
+
+.project-logo {
+	width:200px;
+	height:200px;
+    margin: 0px auto;
+    float:left;
+    border-width:2px;
+    border-color:rgba(245,245,245,1);
+    border-style:solid;
+}
+
+.project h2 {
+	color:black;
+	text-align: left;
+	margin-top:0px;
+	padding-left:250px;
+	font-weight:400;
+	font-size:30px;
+	float:clear;
+}
+
+.project h3 {
+	padding-left:50px;
+	font-weight:300;
+	display:inline-block;
+	line-height: 0px;
+	font-size:20px;
+	float:clear;
 }
 
 
