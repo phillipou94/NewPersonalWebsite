@@ -9,6 +9,7 @@ GLOBAL
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Lato';
 }
 
 
@@ -69,10 +70,6 @@ nav .right-nav li {
   display: inline-block; /* allows list items to be in blocks in a row */
 }
 
-nav .right-nav li a:hover {
-	font-weight:500;
-	color:#ff3d2b;
-}
 nav .right-nav a, nav .right-nav a:visited {
 	color:black;
 	padding: 15px 10px;
@@ -83,6 +80,11 @@ nav .right-nav a, nav .right-nav a:visited {
   
 }
 
+nav .right-nav a:hover {
+	font-weight:500;
+	color:#ff3d2b;
+}
+
 /*********************************
 HEADER
 *********************************/
@@ -90,22 +92,23 @@ HEADER
 .main-header {
 	background: linear-gradient( rgba(0, 0, 0, 0.65) 60%, rgba(0, 0, 0, 0.15)),
 				url('../images/boston_skyline.jpg') no-repeat;
-	-moz-background-size:100% 650px;
-	-webkit-background-size:100% 650px;
-	background-size:100% 650px;
+	-moz-background-size:100% 100% ;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
     max-width: 100%;
     width:100%;
-  	height: 650px;
-  	position:absolute;
+    height:100%;
+  	max-height: 700px;
   	margin: 0 auto;
+  	display:block;
     
 }
 
 .header-content {
 	width: 85%;
 	max-width:85%;
-	margin: 300px auto;
-	padding-top:60px;
+	margin: 75px auto;
+	padding-top:260px;
     
 }
 
@@ -144,7 +147,7 @@ HEADER
     border-width:2px;
     border-color:#ff3d2b;
     border-style:solid;
-    margin: 35px -85px; 
+    margin: 35px -75px; 
     position:relative;
     top:50%; 
     left:50%;
@@ -170,4 +173,38 @@ HEADER
 	background: transparent;
 }
 
+/*********************************
+SKILLS AND EDUATION 
+*********************************/
+
+.skills-and-education:last-child {
+  margin-bottom: 0;
+}
+.skills-and-education {
+	clear:both;
+	width:100%;
+	background: white;
+	height:2000px;
+
+	
+}
+
+.experience {
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+.skills-and-education h1 {
+	padding-top: 50px;
+	max-width:100%;
+	font-family: 'Lato';
+	font-weight:700;
+	position:relative;
+	color:black;
+	text-align:center;
+
+}
+.skills-and-education span {
+	color:#ff3d2b;
+}
 
