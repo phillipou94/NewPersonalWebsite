@@ -247,13 +247,15 @@ Portfolio
 .portfolio {
 
 	height:500px;
-	background: gray;
-
+	background: rgba(240,240,240,1);
 	border-width:1px 0 0 0 ;
     border-color:gray;
     border-style:solid;
     margin-bottom:300px;
 }
+
+
+
 
 
 
