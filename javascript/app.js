@@ -3,8 +3,15 @@ $(document).ready(function(){
 
    // jQuery methods go here...
 
+   $('.scroll-to-about').click(function(){
+        var nextSection = $('#about');
+        $('html, body').animate({
+            scrollTop: $(nextSection).offset().top
+        }, 2000);
+    });
+
    $('.scroll-to-skills').click(function(){
-        var nextSection = $('.section-header');
+        var nextSection = $('#skills');
         $('html, body').animate({
             scrollTop: $(nextSection).offset().top
         }, 2000);
@@ -17,12 +24,14 @@ $(document).ready(function(){
         }, 2000);
     });
 
-    $(".project-link").hover(function(){
-        $(".project").css("border", "1px solid rgba(235,235,235,1)");
-        $(".project-logo").css("border-style","none");
+    $(".project").hover(function(){
+
+        $(this).css("border", "8px solid #ff3d2b");
+        $(this).css("border-width", "0 2px 0 0");
+       
         },function(){
-        $(".project").css("border-style", "none");
-        $(".project-logo").css("border", "2px solid rgba(245,245,245,1)");
+         $(this).find(".project-logo").css("border","2px solid rgba(245,245,245,1)");
+         $(this).css("border-style", "none");
     });
 
 });
