@@ -78,8 +78,6 @@ nav .right-nav {
   padding-bottom:20px;
   padding-right:10px;
 
-  display:block;
-
 }
 
 nav .right-nav li {
@@ -531,6 +529,81 @@ FOOTER
 	* {
 		max-width: 100%
 
+	}
+
+	.main-header {
+    
+    	height:375px;
+  		max-height: 375px;
+    
+	}
+
+	.header-content {
+
+		padding-top:25px;
+	    
+	}
+
+	.header-content h1,h2 {
+		margin:auto;
+	    line-height:51px;
+	    text-align:center;
+	    color:white;
+
+
+	}
+
+	.header-content h1 {
+		font-family: 'Lato';
+		font-weight:700;
+		font-size:55px;
+		letter-spacing: 5px;
+		margin-bottom: 25px;
+	}
+
+	.header-content h2 {
+		font-family: 'Lato';
+		font-weight:300;
+		font-size:25px;
+		letter-spacing: 2px;
+		margin-bottom:10px;
+	}
+
+	.header-content button{
+		height:60px; 
+	    width:155px; 
+	    background-color: transparent;
+	    color:#ff3d2b;
+	    font-family:'Lato';
+	    font-weight:400;
+	    font-size:20px;
+	    border-width:2px;
+	    border-color:#ff3d2b;
+	    border-style:solid;
+	    margin: 35px -75px; 
+	    position:relative;
+	    top:50%; 
+	    left:50%;
+	}
+
+	.header-content button a, .header-content button a:visited{
+		text-decoration: none;
+		color:inherit;
+		background: transparent;
+	}
+
+	.header-content button:hover {
+	  display: inline-block;
+	  font-weight: 400;
+	  -webkit-transition-duration: 0.1s;
+	  transition-duration: 0.2s;
+	  background: #ff3d2b;
+	  color:white;
+
+	  
+	}
+	#learn-more-button a:hover{
+		background: transparent;
 	}
 
 
