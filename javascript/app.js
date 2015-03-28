@@ -34,7 +34,7 @@ $(document).ready(function(){
     $(".project").hover(function(){
 
         $(this).css("border", "8px solid #ff3d2b");
-        $(this).css("border-width", "0 2px 0 0");
+        $(this).css("border-width", "0 0 0 2px");
        
         },function(){
          $(this).find(".project-logo").css("border","2px solid rgba(245,245,245,1)");
