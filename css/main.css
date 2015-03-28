@@ -389,17 +389,15 @@ EXPERIENCE
 }
 
 .job {
-	height:200px;
 	margin-left:100px;
 	margin-right:100px;
     display: inline-block;
     margin-bottom:80px;
-    width:80%;
-	
+    width:80%;	
 	
 }
 
-.job-logo {
+.job .job-logo {
 	width:200px;
 	height:200px;
     margin: 0px auto;
@@ -409,7 +407,7 @@ EXPERIENCE
     border-style:solid;
 }
 
-.company {
+.job .company {
 	color:black;
 	text-align: left;
 	margin-top:0px;
@@ -525,6 +523,7 @@ FOOTER
 	html,body {
 		
 		max-width:100%;
+		padding: 10px;
 		
 	
 	}
@@ -591,34 +590,41 @@ FOOTER
 	    text-align: justify;
 	    width:100%;
 	    padding:0;
+
 	}
 
 
 
 	.project {
-	    display: inline-block;
-	    margin-bottom:50px;
-	    margin-top:50px;
-	    width:50%;
+	    height:150px;
+	    margin-top:25px;
+	    margin-left:5px;
+	    width:100%;
 	    padding:0;
+	    
+
 
 	}
 
 	.project-logo {
-		display: block;
+		margin: auto 25%;
+		width:125px;
+		height:125px;
+		margin: 0;
 		padding:0;
+		float:right;
 	    
 	}
 
 	.project h2 {
-		text-align: center;
+		text-align: left;
 		margin-top:0px;
 		padding-left:0px;
 		padding:0;
 		
 	}
 	.project h3 {
-		text-align: center;
+		text-align: left;
 		margin-top:0px;
 		padding-left:0px;
 		font-size: 12px;
@@ -632,66 +638,73 @@ FOOTER
 	***********************/
 	.experience {
 		width:100%;
-		margin-bottom:40px;
+		margin-bottom:0px;
+		margin-top: 0;
 		padding:0;
 	}
 
 	.job {
 		margin-left: 0;
 		padding-left:0;
-		height:200px;
-	    margin-top:40px;
+		
+	    margin-top:0px;
 	    width:98%;
 	    padding:0;
+	    
 
 		
 	}
 
-	.job-logo {
-	    margin: auto 25%;
+	.job .job-logo {
+	    margin: 0 0;
 	    padding:0;
+	    width:125px;
+	    height:125px;
+	    
 	    
 	}
 
-	.company {
+	.job .company {
 		color:black;
-		text-align: center;
+		margin-left:130px;
 		margin-top:0px;
-		padding-left:0px;
+		padding-left:0;
 		font-weight:400;
-		font-size:30px;
+		font-size:25px;
 		margin-bottom:0;
-		padding:0;
+		
 
 
 	}
 
-	.job-title span {
-		font-size:20px;
+	.job .job-title span {
+		font-size:15px;
 		font-weight:300;
 		color:#ff3d2b;
 		padding:0;
 
 	}
 
-	.job-title {
+	.job .job-title {
 		color:black;
 		padding-left:0px;
 		font-weight:400;
-		font-size:20px;
-		text-align: center;
+		font-size:15px;
+		text-align: left;
+		margin-top: 0;
+		margin-left:130px;
 
-
-		
 
 	}
 
-	.job-description {
+	.job .job-description {
 		color:black;
-		text-align:center;
+		text-align:left;
 		padding-left:0px;
 		font-weight:400;
 		font-size:12px;
+		margin-left: 130px;
+		margin-top:0px;
 	
 	}
 }
