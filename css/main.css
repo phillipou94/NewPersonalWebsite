@@ -350,7 +350,69 @@ PORTFOLIO
 EXPERIENCE
 *********************************/
 
+.experience {
+	display:inline-block;
+	width:100%;
+}
 
+.job {
+	margin-left:50px;
+	margin-right:50px;
+	margin-bottom:20px;
+	width:42%;
+	display: inline-block;
+}
+
+.job-logo {
+	width:200px;
+	height:200px;
+	float:left;
+	margin-right:30px;
+}
+
+.company {
+	padding-top:0px;
+	margin-left:50px;
+	font-size:20px;
+	font-weight:400;
+	color:black;
+	line-height:25px;
+
+}
+
+.company span {
+	font-size:20px;
+	font-weight:300;
+	color:#ff3d2b;
+
+}
+
+.job-title {
+	font-size:15px;
+	
+
+}
+
+.company span {
+	font-size:20px;
+	font-weight:300;
+	color:#ff3d2b;
+
+}
+
+.job-description {
+	font-size:12px;
+	line-height:15px;
+	
+}
+
+.job:nth-of-type(odd) {
+    float:left;
+}
+
+.job:nth-of-type(even) {
+    float:right;
+}
 
 
 

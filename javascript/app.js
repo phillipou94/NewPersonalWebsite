@@ -18,7 +18,14 @@ $(document).ready(function(){
     });
 
    $('.scroll-to-portfolio').click(function(){
-        var nextSection = $('.portfolio');
+        var nextSection = $('#portfolio');
+        $('html, body').animate({
+            scrollTop: $(nextSection).offset().top
+        }, 2000);
+    });
+
+   $('.scroll-to-experience').click(function(){
+        var nextSection = $('#experience');
         $('html, body').animate({
             scrollTop: $(nextSection).offset().top
         }, 2000);
