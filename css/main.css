@@ -225,7 +225,7 @@ ABOUT ME
 	width:48%;
 	margin-top: 20px;
 	margin-right:30px;
-	height:400px;
+	height:450px;
 	float:right;
 
 	background: url('../images/collage.png') no-repeat;
@@ -280,17 +280,19 @@ SKILLS AND EDUATION
 
 .skills-and-education .left {
 	display: inline-block;
+	vertical-align:top;
 	padding-left:8%;
 	width: 48%;
 	height:200px;
 	max-height:300px;
-	margin-bottom: 10px;
+
 
 	
 }
 
 .skills-and-education .right {
 	display: inline-block;
+	vertical-align:top;
 	padding-left:4%;
 	width:48%;
 	height:200px;
@@ -532,6 +534,11 @@ FOOTER
 
 	}
 
+	nav .right-nav li {
+  		display: none; /* allows list items to be in blocks in a row */
+
+	}
+
 	.main-header {
     
     	height:375px;
@@ -638,6 +645,7 @@ FOOTER
 		max-height:300px;
 		margin-bottom: 10px;
 		padding:0;
+		text-align: center;
 
 	}
 
@@ -648,6 +656,7 @@ FOOTER
 		max-height:300px;
 		padding:0;
 		margin-bottom:50px;
+		text-align: center;
 		
 	}
 
@@ -784,7 +793,53 @@ FOOTER
 		margin-top:0px;
 	
 	}
-}
+
+	/*********************************
+	FOOTER
+	*********************************/
+
+	#footer-container {
+		width:100%;
+
+		text-align: left
+
+	}
+
+
+	#copyright {
+		
+		text-align: left;
+		width:100%;
+		
+	}
+
+	#copyright p {
+		display: inline-block;
+		padding:0 25px;
+	}
+
+
+	#social-buttons {
+		display:none;
+
+		
+	}
+
+	#social-buttons img{
+		display: inline-block;
+		margin-top:30px;
+		margin-left: 10px;
+		margin-right: 10px;
+		width:50px;
+		height:50px;
+	}
+
+	#contact-info {
+		
+		display:none;
+
+	}
+
 
 
 
