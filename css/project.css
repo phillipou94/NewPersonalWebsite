@@ -29,6 +29,21 @@
     
 }
 
+#formwear-banner {
+  background: url('../portfolio/formwear-banner.png') no-repeat;
+  -moz-background-size:100% 100% ;
+  -webkit-background-size:100% 100%;
+  background-size:100% 100%;
+    max-width: 100%;
+    width:100%;
+    
+    height:675px;
+    max-height: 675px;
+    margin: 0;
+    display:block;
+    
+}
+
 .header-content {
 	width: 85%;
 	max-width:85%;
